@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_search"
+        android:icon="@drawable/ic_main_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <group>
+        <item
+            android:id="@+id/main_scan_music"
+            android:title="扫描本地音乐"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/main_select_range"
+            android:title="选择排序方式"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/main_get_music_word"
+            android:title="获取封面歌词"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/main_grade_music"
+            android:title="升级音质"
+            app:showAsAction="never" />
+    </group>
+
+
+</menu>

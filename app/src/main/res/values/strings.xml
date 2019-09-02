@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="main_label">本地音乐</string>
+</resources>

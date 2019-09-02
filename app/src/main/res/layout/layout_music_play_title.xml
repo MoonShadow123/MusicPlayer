@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_music_play_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_music_play_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_music_play_song_name"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="bottom"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+            <!--android:scrollHorizontally="true"-->
+            <TextView
+                android:id="@+id/tv_music_play_singer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textColor="#CCCCCC"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_music_play_share"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/selector_music_play_title_share" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
